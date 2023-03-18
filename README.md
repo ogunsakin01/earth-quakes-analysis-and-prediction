@@ -15,11 +15,12 @@ After installing docker desktop, you need to run this command `docker build -t m
 ` This will start the Docker container and map port 80 on the container to port 80 on your local machine. Ensure no other process in using port 80 on your computer before running these commands, if you do, ensure to disable the processes to keep the prot free.
 
 ### Accessing Prediction Endpoints
-Visit http://localhost/ in your web browser to confirm everything works fine. 
+Visit http://localhost/ in your web browser to confirm everything works fine. Another test URL is provided to further confirm everything works.
+http://localhost/test-data
 Then you can further access each prediction algorithms through the endpoints below.
 
 
-`/cnn-prediction (not available, just an example)` 
+`/test-data` 
 
 
 ### Limitation & Challenge
