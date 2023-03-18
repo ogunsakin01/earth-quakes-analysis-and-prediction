@@ -1,10 +1,11 @@
 from flask import Flask, jsonify
+import revised.welcome as welcome
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello, World!'
+    return welcome.index()
 
 @app.route('/data')
 def data():
