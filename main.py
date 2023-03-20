@@ -1,16 +1,16 @@
 from flask import Flask, jsonify
-import revised.welcome as welcome
-import revised.test_file as test_file
+import testing.welcome as welcome
+import testing.test_file as test_file
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return welcome.index()
+    return welcome.handle()
 
 @app.route('/test-data')
 def testData():
-    return test_file.test_data()
+    return test_file.handle()
 
 
 if __name__ == '__main__':

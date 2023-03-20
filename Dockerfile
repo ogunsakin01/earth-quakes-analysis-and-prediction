@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --upgrade pip
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 # Copy the rest of the application code into the container
-COPY . .
+COPY .. .
 
 # Expose port 80 for the API
 EXPOSE 80
