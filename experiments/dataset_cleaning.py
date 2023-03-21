@@ -3,5 +3,5 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def handle():
-    return "Hello"
+    return "Hello world"
 
