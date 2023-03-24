@@ -2,5 +2,6 @@ flask
 numpy
 pandas
 jupyter
-sklearn
+scikit-learn
 keras
+folium

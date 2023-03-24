@@ -8,6 +8,7 @@
 - Pandas
 - Jupyter
 - Sklearn
+- Folium
 
 ### Installation & Setup
 To successfully set up and run this project, you need to have installed Docker desktop on your computer. You can install from this link https://docs.docker.com/engine/install/
