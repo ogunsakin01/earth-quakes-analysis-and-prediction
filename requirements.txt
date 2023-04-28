@@ -5,3 +5,7 @@ jupyter
 scikit-learn
 keras
 folium
+seaborn
+scipy
+matplotlib
+tensorflow
