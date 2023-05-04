@@ -1,7 +1,7 @@
 from flask import Flask
 import testing.welcome as welcome
 import testing.test_file as test_file
-from experiments import dataset_cleaning as data_cleaning
+# from experiments import dataset_cleaning as data_cleaning
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ def testData():
 
 @app.route('/clean-data-set')
 def cleanDataSet():
-    return data_cleaning.handle()
+    return []
 
 
 if __name__ == '__main__':
