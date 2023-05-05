@@ -1,0 +1,49 @@
+######## Latitude & longitude prediction models metric
+### Linear Regression
+Mean RMSE: 0.00
+Standard deviation: 0.00
+Test MSE: 0.00
+Test MAE: 0.00
+Test R2: 1.00
+
+### Decision Tree Regression
+Mean RMSE: 0.07
+Standard deviation: 0.01
+Test MSE: 0.01
+Test MAE: 0.04
+Test R2: 1.00
+
+### Random Forest Regression
+Mean RMSE: 2.53
+Standard deviation: 0.22
+Test MSE: 5.92
+Test MAE: 1.51
+Test R2: 1.00
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+
+
+######## Magnitude & depth prediction models metric
+### Linear Regression
+Mean RMSE: 0.00
+Standard deviation: 0.00
+Test MSE: 0.00
+Test MAE: 0.00
+Test R2: 1.00
+
+### Decision Tree Regression
+Mean RMSE: 0.18
+Standard deviation: 0.07
+Test MSE: 0.02
+Test MAE: 0.04
+Test R2: 1.00
+
+### Random Forest Regression
+Mean RMSE: 8.83
+Standard deviation: 0.92
+Test MSE: 73.00
+Test MAE: 3.93
+Test R2: 0.98
+
