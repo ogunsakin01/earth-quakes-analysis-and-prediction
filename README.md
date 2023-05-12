@@ -66,6 +66,12 @@ then run the command below to start the API
 docker run -p 80:80 my-api
 ``` 
 
+or run both commands together 
+
+```shell
+docker build -t my-api . && docker run -p 80:80 my-api
+```
+
 This will start the Docker container and map port 80 on the container to port 80 on your local machine. Ensure no other process in using port 80 on your computer before running these commands, if you do, ensure to disable the processes to keep the prot free.
 
 #### Accessing Analysis & Predictions Endpoints

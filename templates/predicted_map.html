@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map</title>
+</head>
+<body>
+    <h3>Prediction Date: {{ predicted['Year'] }}-{{ predicted['Month'] }}-{{ predicted['DayOfWeek'] }}</h3>
+    <p>Longitude: {{ predicted['lon'] }}</p>
+    <p>Latitude: {{ predicted['lat'] }}</p>
+    <p>Magnitude: {{ predicted['Magnitude'] }}</p>
+    <p>Depth: {{ predicted['Depth'] }}</p>
+    {{ map_html | safe }}
+</body>
+</html>

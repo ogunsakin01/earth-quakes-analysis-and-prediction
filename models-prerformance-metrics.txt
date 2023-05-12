@@ -20,6 +20,41 @@ Test MSE: 5.92
 Test MAE: 1.51
 Test R2: 1.00
 
+#-------------------------------
+Linear Regression
+Mean RMSE: 91.38
+Standard deviation: 2.00
+Test MSE: 8273.25
+Test MAE: 69.38
+Test R2: 0.00
+
+Decision Tree Regression
+Mean RMSE: 93.58
+Standard deviation: 2.76
+Test MSE: 8762.11
+Test MAE: 67.65
+Test R2: -0.04
+
+Random Forest Regression
+Mean RMSE: 89.96
+Standard deviation: 2.10
+Test MSE: 8007.02
+Test MAE: 67.02
+Test R2: 0.04
+#-------------------------------
+
+
+### LSTM
+
+Mean Squared Error: 0.07767513698559109
+Mean Absolute Error: 0.2341076042162213
+R-squared Score: 0.02414387152822267
+
+Testing Set:
+Mean Squared Error: 0.07708591759963418
+Mean Absolute Error: 0.2352756126020136
+R-squared Score: 0.05757089281475808
+
 
 ################################################################################################################################################################
 ################################################################################################################################################################
@@ -46,4 +81,27 @@ Standard deviation: 0.92
 Test MSE: 73.00
 Test MAE: 3.93
 Test R2: 0.98
+
+#-------------------------------
+Linear Regression
+Mean RMSE: 87.09
+Standard deviation: 8.12
+Test MSE: 7061.49
+Test MAE: 34.67
+Test R2: 0.01
+
+Decision Tree Regression
+Mean RMSE: 61.01
+Standard deviation: 7.18
+Test MSE: 3726.25
+Test MAE: 21.50
+Test R2: 0.20
+
+Random Forest Regression
+Mean RMSE: 59.29
+Standard deviation: 6.79
+Test MSE: 3419.71
+Test MAE: 22.53
+Test R2: 0.27
+#-------------------------------
 
