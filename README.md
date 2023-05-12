@@ -1,5 +1,5 @@
 # Earth Quakes Prediction Using Machine Learning Algorithms
-This research explores the prediction of future earthquakes by combining tectonic plate data with historical earthquake data using various machine learning (ML) algorithms. The study employs a comprehensive dataset of tectonic plate movements and historical earthquake data to train and test different ML models, including decision trees, random forests, and neural networks. The study focuses on improving earthquake prediction accuracy by examining the influence of various input features on model performance. The results demonstrate that the proposed approach can effectively predict future earthquakes with high accuracy, providing valuable insights into earthquake forecasting and risk mitigation. This research will provide a significant contribution to earthquake prediction and underscores the potential of ML algorithms in predicting future natural disasters.
+
 
 ## System(s) Requirements
 To set up this project on your computer, you will need to have the following application and libraries installed on your computer
