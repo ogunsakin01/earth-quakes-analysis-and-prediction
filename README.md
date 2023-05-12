@@ -75,9 +75,16 @@ docker build -t my-api . && docker run -p 80:80 my-api
 This will start the Docker container and map port 80 on the container to port 80 on your local machine. Ensure no other process in using port 80 on your computer before running these commands, if you do, ensure to disable the processes to keep the prot free.
 
 #### Accessing Analysis & Predictions Endpoints
-Visit `http://localhost` in your web browser to confirm everything works fine. Another test URL is provided to further confirm everything works.
-`http://localhost/test-data`
-Then you can further access each prediction algorithms through other endpoint which will be listed below
+Visit `http://localhost` in your web browser to confirm everything works fine.
+
+
+- http://127.0.0.1/get-clean-tectonic-plates-data - Gets cleaned tectonic plates dataset
+- http://127.0.0.1/visualise-earthquake-on-tectonic-plate - Displays visualisation of earthquake on tectonic plate
+- http://127.0.0.1/get-prediction/2024-12-10 -Get prediction using Random Forest model 
+- http://127.0.0.1/get-lstm-prediction/2024-12-10 - Get prediction using LSTM model 
+- http://127.0.0.1/visualise-prediction/2024-12-10 - Visualise prediction from Random Forest model 
+- http://127.0.0.1/visualise-lstm-prediction/2024-12-10 - Visualise prediction from LSTM model 
+- http://127.0.0.1/get-clean-earthquake-data - Get cleaned earthquake dataset 
 
 
 #### Limitation & Challenge of Current Docker Setup
